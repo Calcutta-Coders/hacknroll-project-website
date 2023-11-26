@@ -35,7 +35,7 @@ export function CustomHead({ title = '', description, image, keywords }) {
         <meta name="format-detection" content="telephone=no" />
         <meta name="geo.region" content="US" />
 
-        {/* START FAVICON */}
+        {/* START FAVICON
         <link rel="manifest" href="/site.webmanifest" />
         <link
           rel="apple-touch-icon"
@@ -58,7 +58,7 @@ export function CustomHead({ title = '', description, image, keywords }) {
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ff98a2" />
         <meta name="msapplication-TileColor" content="#000000" />
         <meta name="theme-color" content="#ffffff" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" /> */}
         {/* END FAVICON */}
       </NextHead>
       <NextSeo
