@@ -348,7 +348,7 @@ Community Managers – "Keep your community buzzing without losing your sanity."
               className={s.card}
               number="05"
               text="⚡ Zero-Effort Integration → Plug. Play. Dominate. Set up Teletubby in seconds and let it work its magic."
-
+            />
           </HorizontalSlides>
         </div>
       </section>
