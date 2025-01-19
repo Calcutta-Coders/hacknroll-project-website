@@ -17,20 +17,19 @@ const cards = [
   {
     text: (
       <>
-        Trained using 7 different datasets
-      </>
+      Dynamic Tagging System - No more digging through endless chats. Teletubby instantly sorts your messages into categories like Work, Events, and Reminders, so you can focus on what matters.    </>
     ),
   },
-  { text: 'State of the art model for efficient net' },
-  { text: 'Extensive customisation by tweaking hyper parameters' },
+  { text: 'Instant Chat Summaries- Hundreds of unread messages? No problem. Teletubby delivers quick, digestible summaries, cutting hours of scrolling into minutes.' },
+  { text: 'Context Aware Understanding- Forgot where the deadline was mentioned? Just ask, and Teletubby will pinpoint the exact message—no more endless searching.' },
   {
-    text: <>Superior image processing</>,
+    text: <>Stay Ahead of Deadlines- Critical dates and tasks are automatically highlighted, keeping you on track without lifting a finger.</>,
   },
-  { text: 'Blazing fast readings' },
-  { text: 'With 99.8% accuracy' },
-  { text: 'At your fingertips' },
+  { text: 'Real-Time Updates- Teletubby works in the background, giving you live updates on what’s important—so you’re always in the loop.' },
+  { text: 'Boost Team Efficiency- Ideal for study groups, startups, and remote teams. Keep projects organized and reduce miscommunication.' },
+  { text: 'Advanced NLP Algorithms- Powered by cutting-edge AI models designed for efficiency and precision.' },
   {
-    text: 'This is EYE',
+    text: 'Zero Setup, Maximum Impact- Add Teletubby to your chats, and it works its magic instantly—no setup required.',
   },
 ]
 
