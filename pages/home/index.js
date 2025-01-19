@@ -279,7 +279,7 @@ export default function Home() {
           <aside className={s.features} ref={whyRectRef}>
             <div className={s.feature}>
               <p className="p">
-Overwhelmed by endless Telegram messages? <strong>Teletubby</strong> is the ultimate AI-powered Telegram assistant that transforms the way you communicate. With intelligent tagging, instant summaries, and natural language search, Teletubby helps you cut through the noise—so you never miss what matters.
+Overwhelmed by endless Telegram messages? <strong>Teletubby</strong> is the ultimate AI-powered Telegram assistant that transforms the way you communicate. With intelligent tagging, instant summaries, and natural language search, Teletubby helps you cut through the noise—so you never miss what matters. </p>
               </div>
             <div className={s.feature}>
               <h3 className={cn(s.title, 'h4')}>
@@ -287,7 +287,7 @@ Overwhelmed by endless Telegram messages? <strong>Teletubby</strong> is the ulti
               </h3>
               <p className="p">
 Let’s be honest—you’re drowning in Telegram notifications. One minute it’s memes, the next it’s deadlines. Teletubby is the AI sidekick you didn’t know you needed. It filters the noise, highlights what matters, and saves you from scrolling through 500+ messages just to find a Google Meet link. Your brain will thank you. 
-           </div>
+        </p>   </div>
             <div className={s.feature}>
               <h3 className={cn(s.title, 'h4')}>
               For Those Who Can’t Afford to Miss a Message              </h3>
@@ -295,7 +295,7 @@ Let’s be honest—you’re drowning in Telegram notifications. One minute it�
 Students & Study Groups – "Because missing a group project deadline is not a personality trait."
 Remote Teams & Startups – "Turn chaotic work chats into actionable insights. No more ‘Did anyone send the deck?’"
 Hackathon Participants – "Focus on building. Let Teletubby handle the spam."
-Community Managers – "Keep your community buzzing without losing your sanity."            </div>
+Community Managers – "Keep your community buzzing without losing your sanity."    </p>        </div>
             {/* <div className={s.feature}>
               <h3 className={cn(s.title, 'h4')}>
                 Make your animations flawless
