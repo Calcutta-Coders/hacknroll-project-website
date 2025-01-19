@@ -373,7 +373,7 @@ Community Managers – "Keep your community buzzing without losing your sanity."
         </div>
       </section>
 
-        <Upload/>
+  
 
       <section className={cn('theme-light', s.featuring)} ref={whiteRectRef}>
         <div className={s.inner}>
