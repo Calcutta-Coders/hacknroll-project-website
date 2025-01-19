@@ -60,3 +60,16 @@ $intro-out: 1500ms;
     transform: translate3d(0, -105%, 0);
   }
 }
+
+#big-text {
+  font-size: clamp(3rem, 8vw, 6rem); /* Adjust font size responsively */
+  line-height: 1.2; /* Maintain line height */
+  text-align: center; /* Center the text */
+  transform: translate(-50%, -50%); /* Center it on the page */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  white-space: nowrap; /* Prevent the text from breaking into multiple lines */
+  color: var(--white); /* Adjust color as needed */
+  z-index: 1001; /* Ensure it appears above other elements */
+}
