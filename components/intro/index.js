@@ -92,7 +92,7 @@ export const Title = ({ className, thing }) => {
 //   }, []);
   return (
     <div className={className} id = "big-text">
-EYE.AI  </div>
+TeleTubby </div>
   )
 }
 
@@ -127,6 +127,6 @@ const LNS = ({ isLoaded, className, fill }) => {
 
 const EI = ({ isLoaded, className, fill }) => {
   return (
-    <h1>EYE</h1>
+    <h1>TeleTubby</h1>
   )
 }
