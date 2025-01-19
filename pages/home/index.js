@@ -206,9 +206,9 @@ export default function Home() {
     <Layout
       theme={theme}
       seo={{
-        title: 'EYE AI',
+        title: 'Teletubby | Your Smart Telegram Assistant',
         description:
-          '',
+          'Revolutionizing How You Navigate Telegram',
       }}
       className={s.home}
     >
@@ -243,58 +243,59 @@ export default function Home() {
           >
             <div className={s.text}>
               <HeroTextIn introOut={introOut}>
-                <p>scroll</p>
+                <p>👇 Discover Teletubby </p>
               </HeroTextIn>
               <HeroTextIn introOut={introOut}>
-                <p> to explore</p>
+                <p> Change Messaging Forever</p>
               </HeroTextIn>
             </div>
           </div>
           <h1 className={cn(s.description, 'p-s')}>
             <HeroTextIn introOut={introOut}>
-              <p className="p-s"> A new way </p>
+              <p className="p-s">Declutter Telegram,  </p>
             </HeroTextIn>
             <HeroTextIn introOut={introOut}>
-              <p className="p-s">to solve</p>
+              <p className="p-s">Stay in  </p>
             </HeroTextIn>
             <HeroTextIn introOut={introOut}>
-              <p className="p-s">blindness</p>
+              <p className="p-s">Control.</p>
             </HeroTextIn>
           </h1>
           <Button
             className={cn(s.cta, introOut && s.in)}
             arrow
             icon={<GitHub />}
-            href="https://github.com/arnav-jhajharia/"
+            href="https://t.me/TeleTubbyDemoBot"
           >
-            Check it out on github
+            Experience the Future of Communication!
           </Button>
         </div>
       </section>
       <section className={s.why} data-lenis-scroll-snap-align="start">
         <div className="layout-grid">
           <h2 className={cn(s.sticky, 'h2')}>
-              What is EYE.AI
+          📱 Meet <strong>Teletubby</strong>
           </h2>
           <aside className={s.features} ref={whyRectRef}>
             <div className={s.feature}>
               <p className="p">
-Eye.AI is a deep-learning algorithm designed to diagnose eye diseases using smartphone photographs. It targets a range of conditions, including cataracts, glaucoma, and diabetic retinopathy. This technology aims to increase accessibility to eye care, especially in rural or less economically developed areas.              </p>
-            </div>
+Overwhelmed by endless Telegram messages? <strong>Teletubby</strong> is the ultimate AI-powered Telegram assistant that transforms the way you communicate. With intelligent tagging, instant summaries, and natural language search, Teletubby helps you cut through the noise—so you never miss what matters.
+              </div>
             <div className={s.feature}>
               <h3 className={cn(s.title, 'h4')}>
-                Functionality and Accessibility
+                Why You Need Teletubby!
               </h3>
               <p className="p">
-Using simple smartphone cameras, Eye.AI analyzes eye photos for disease detection. It can identify various conditions through close-up images or fundus photography. The system provides disease probability and treatment suggestions, making it a valuable tool for both medical professionals and individuals in remote areas.              </p>
-            </div>
+Let’s be honest—you’re drowning in Telegram notifications. One minute it’s memes, the next it’s deadlines. Teletubby is the AI sidekick you didn’t know you needed. It filters the noise, highlights what matters, and saves you from scrolling through 500+ messages just to find a Google Meet link. Your brain will thank you. 
+           </div>
             <div className={s.feature}>
               <h3 className={cn(s.title, 'h4')}>
-                Target Audience and Impact
-              </h3>
+              For Those Who Can’t Afford to Miss a Message              </h3>
               <p className="p">
-Eye.AI primarily serves rural clinics, hospitals, and residents in underprivileged regions. It's also beneficial for those in developed areas with limited access to eye care. By replacing expensive medical equipment with a smartphone, Eye.AI offers a cost-effective and accessible solution for early eye disease diagnosis.              </p>
-            </div>
+Students & Study Groups – "Because missing a group project deadline is not a personality trait."
+Remote Teams & Startups – "Turn chaotic work chats into actionable insights. No more ‘Did anyone send the deck?’"
+Hackathon Participants – "Focus on building. Let Teletubby handle the spam."
+Community Managers – "Keep your community buzzing without losing your sanity."            </div>
             {/* <div className={s.feature}>
               <h3 className={cn(s.title, 'h4')}>
                 Make your animations flawless
@@ -314,8 +315,7 @@ Eye.AI primarily serves rural clinics, hospitals, and residents in underprivileg
           <div className={s.highlight} data-lenis-scroll-snap-align="start">
             <Parallax speed={-0.5}>
               <p className="h2">
-                Why EYE.AI?
-              </p>
+              Built to Redefine Messaging              </p>
             </Parallax>
           </div>
          
@@ -325,30 +325,30 @@ Eye.AI primarily serves rural clinics, hospitals, and residents in underprivileg
             <Card
               className={s.card}
               number="01"
-              text="Combatting preventable blindness through early detection."
+              text="Intelligent AI Tagging → Teletubby doesn’t just organize—it anticipates. Instantly categorize conversations with unmatched precision."
             />
             <Card
               className={s.card}
               number="02"
-              text="Enhancing eye care in underserved rural areas."
+              text="Instant Summarization → Cut through the noise. Get powerful summaries of any chat, anytime."
 
             />
             <Card
               className={s.card}
               number="03"
-              text="Affordable, accessible eye disease diagnosis for all."
+              text="Context-Aware Search → Ask it. Find it. Instantly. Natural language search that feels like magic."
 
             />
             <Card
               className={s.card}
               number="04"
-              text="Speeding up eye disease detection and response."
+              text="Direct Message Retrieval → Stop scrolling. Start acting. Jump straight to the messages that matter."
             />
             <Card
               className={s.card}
               number="05"
-              text="Empowering non-specialists in eye health management."
-            />
+              text="⚡ Zero-Effort Integration → Plug. Play. Dominate. Set up Teletubby in seconds and let it work its magic."
+
           </HorizontalSlides>
         </div>
       </section>
@@ -362,11 +362,11 @@ Eye.AI primarily serves rural clinics, hospitals, and residents in underprivileg
         <div className={s.inner}>
           <div className={s.zoom}>
             <h2 className={cn(s.first, 'h1 vh')}>
-              Let's try it out <br />
+            Ready to Take Control of Your Chats? <br />
               {/* <span className="contrast">web scrolling</span> */}
             </h2>
             <h2 className={cn(s.enter, 'h3 vh')}>
-              Enter <br /> EYE
+            Experience Effortless <br /> Messaging Now
             </h2>
             {/* <h2 className={cn(s.second, 'h1 vh')}>As it should be</h2> */}
           </div>
@@ -384,9 +384,9 @@ Eye.AI primarily serves rural clinics, hospitals, and residents in underprivileg
                 className="contrast semi-bold"
                 href="https://github.com/studio-freight/lenis"
               >
-                How was it done?
+                How Does Teletubby Work Its Magic?
               </Link>{' '}
-            And is it accurate?
+              And how can it be this convenient?
             </p>
           </div>
         </div>
