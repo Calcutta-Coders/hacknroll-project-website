@@ -91,7 +91,7 @@ export const Title = ({ className, thing }) => {
 //     // return () => lenis.destroy();
 //   }, []);
   return (
-    <div className={className} id = "big-text">
+    <div className={className}>
 TeleTubby </div>
   )
 }
